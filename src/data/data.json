@@ -1,0 +1,243 @@
+{
+  "header": {
+    "logo": "/logo/Logo.svg"
+  },
+  "myInfo": {
+    "name": "Konstantinos Chaskos",
+    "position": [
+      "Tech Enthusiast",
+      "Self-taught Data Analyst",
+      "Multipotentialite",
+      "Full Stack Software Developer"
+    ],
+    "aboutMe": "Full-stack developer with expertise in .NET and React. Delivers scalable, robust, and maintainable solutions."
+  },
+  "sections": {
+    "portfolio": {
+      "label": "Portfolio",
+      "list": [
+        {
+          "title": "This website!",
+          "image": "/logo/Logo.svg",
+          "skills": ["React", "Typescript", "Material UI", "GSAP"],
+          "url": "https://github.com/mr-polymath/mr-polymath.github.io"
+        }
+      ]
+    },
+    "experience": {
+      "label": "Experience",
+      "list": [
+        {
+          "title": ".NET Developer",
+          "subtitle": "European Dynamics",
+          "dateFrom": "July 2024",
+          "dateTo": "",
+          "list": [
+            "C#",
+            ".NET",
+            "React",
+            "Typescript",
+            "PostgreSQL",
+            "HTML",
+            "CSS",
+            "Git",
+            "Azure DevOps",
+            "Docker",
+            "Figma",
+            "Visual Studio",
+            "VS Code"
+          ]
+        },
+        {
+          "title": "Software Developer & System Administrator",
+          "subtitle": "Sigma Medical Co. Greece",
+          "dateFrom": "July 2018",
+          "dateTo": "January 2024",
+          "list": ["HTML", "CSS", "JavaScript", "MySQL"]
+        },
+        {
+          "title": "Software Developer",
+          "subtitle": "CompuGroup Medical Norway AS",
+          "dateFrom": "November 2013",
+          "dateTo": "December 2016",
+          "list": [
+            "C#",
+            ".NET",
+            "Microsoft SQL",
+            "Git",
+            "Jira",
+            "Visual Studio"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "label": "Skills",
+      "list": [
+        {
+          "name": "C#",
+          "image": "/skills/csharp.svg",
+          "image-dark": "/skills/csharp.svg"
+        },
+        {
+          "name": ".NET",
+          "image": "/skills/net.svg",
+          "image-dark": "/skills/net.svg"
+        },
+        {
+          "name": "Microsoft SQL",
+          "image": "/skills/mssql.svg",
+          "image-dark": "/skills/mssql.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "image": "/skills/postgresql.svg",
+          "image-dark": "/skills/postgresql.svg"
+        },
+        {
+          "name": "React",
+          "image": "/skills/react.svg",
+          "image-dark": "/skills/react.svg"
+        },
+        {
+          "name": "HTML",
+          "image": "/skills/html5.svg",
+          "image-dark": "/skills/html5.svg"
+        },
+        {
+          "name": "CSS",
+          "image": "/skills/css.svg",
+          "image-dark": "/skills/css.svg"
+        },
+        {
+          "name": "TypeScript",
+          "image": "/skills/typescript.svg",
+          "image-dark": "/skills/typescript.svg"
+        },
+        {
+          "name": "JavaScript",
+          "image": "/skills/javascript.svg",
+          "image-dark": "/skills/javascript.svg"
+        },
+        {
+          "name": "Python",
+          "image": "/skills/python.svg",
+          "image-dark": "/skills/python.svg"
+        },
+        {
+          "name": "Git",
+          "image": "/skills/git.svg",
+          "image-dark": "/skills/git.svg"
+        },
+        {
+          "name": "Github",
+          "image": "/skills/github.svg",
+          "image-dark": "/skills/github-dark.svg"
+        },
+        {
+          "name": "Docker",
+          "image": "/skills/docker.svg",
+          "image-dark": "/skills/docker.svg"
+        },
+        {
+          "name": "Azure DevOps",
+          "image": "/skills/ado.svg",
+          "image-dark": "/skills/ado.svg"
+        },
+        {
+          "name": "Material UI",
+          "image": "/skills/mui.svg",
+          "image-dark": "/skills/mui.svg"
+        },
+        {
+          "name": "GSAP",
+          "image": "/skills/gsap-black.svg",
+          "image-dark": "/skills/gsap-white.svg"
+        },
+        {
+          "name": "Fluent UI",
+          "image": "/skills/fui.svg",
+          "image-dark": "/skills/fui.svg"
+        },
+        {
+          "name": "Figma",
+          "image": "/skills/figma.svg",
+          "image-dark": "/skills/figma.svg"
+        },
+        {
+          "name": "Jira",
+          "image": "/skills/jira.svg",
+          "image-dark": "/skills/jira.svg"
+        },
+        {
+          "name": "Visual Studio",
+          "image": "/skills/vs.svg",
+          "image-dark": "/skills/vs.svg"
+        },
+        {
+          "name": "VS Code",
+          "image": "/skills/vscode.svg",
+          "image-dark": "/skills/vscode.svg"
+        },
+        {
+          "name": "Godot Engine",
+          "image": "/skills/godot.svg",
+          "image-dark": "/skills/godot.svg"
+        }
+      ]
+    },
+    "certificates": {
+      "label": "Certificates",
+      "list": [
+        {
+          "title": "Google Advanced Data Analytics",
+          "subtitle": "Google || Coursera",
+          "dateFrom": "May 2025",
+          "url": "https://www.coursera.org/account/accomplishments/specialization/BW3HW3JYJNVZ",
+          "list": [
+            "Data Analytics",
+            "Data Science",
+            "Python",
+            "Statistics",
+            "Regression Analysis",
+            "Machine Learning"
+          ]
+        },
+        {
+          "title": "IBM AI Developer",
+          "subtitle": "IBM || Coursera",
+          "dateFrom": "March 2025",
+          "url": "https://www.coursera.org/account/accomplishments/professional-cert/KT9M5U7AOB49",
+          "list": ["JavaScript", "Python"]
+        },
+        {
+          "title": "IBM Full Stack Software Developer",
+          "subtitle": "IBM || Coursera",
+          "dateFrom": "March 2025",
+          "url": "https://www.coursera.org/account/accomplishments/professional-cert/H758USNLE3OZ"
+        },
+        {
+          "title": "Art of Negotiation",
+          "subtitle": "Euepixeirein || Athens",
+          "dateFrom": "March 2023"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "label": "Contact",
+    "copyright": "Designed and built by Konstantinos Chaskos © %year%. All rights reserved.",
+    "socialMedia": [
+      {
+        "media": "LinkedIn",
+        "iconButton": "LinkedIn",
+        "url": "https://www.linkedin.com/in/konstantinoschaskos/"
+      },
+      {
+        "media": "GitHub",
+        "iconButton": "GitHub",
+        "url": "https://github.com/mr-polymath"
+      }
+    ]
+  }
+}
