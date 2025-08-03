@@ -1,5 +1,7 @@
 import {
+  Button,
   Card,
+  CardActions,
   CardContent,
   CardMedia,
   Chip,
@@ -72,17 +74,34 @@ export const Portfolio = () => {
               },
             }}
           >
-            <Card elevation={3}>
+            <Card
+              elevation={3}
+              sx={{
+                maxWidth: "400px",
+              }}
+            >
               <CardMedia
                 component="img"
                 alt="my-website"
-                image={portfolio.image}
-                width="264"
-                height="264"
+                image={
+                  mode === "dark" || (mode === "system" && prefersDarkMode)
+                    ? portfolio["image-dark"]
+                    : portfolio.image
+                }
+                sx={{
+                  alignContent: "center",
+                  borderWidth: "1px",
+                  borderStyle: "solid",
+                  borderColor: theme.palette.primary.main,
+                  borderRadius: theme.shape.borderRadius,
+                }}
               ></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   {portfolio.title}
+                </Typography>
+                <Typography gutterBottom variant="subtitle2" component="div">
+                  {portfolio.description}
                 </Typography>
                 {portfolio.skills &&
                   portfolio.skills?.map((l, index) => (
@@ -101,11 +120,11 @@ export const Portfolio = () => {
                     />
                   ))}
               </CardContent>
-              {/* <CardActions>
+              <CardActions>
                 <Button href={portfolio.url} target="_blank" size="small">
-                  View Github
+                  {portfolio["url-name"]}
                 </Button>
-              </CardActions> */}
+              </CardActions>
             </Card>
           </Grid>
         ))}

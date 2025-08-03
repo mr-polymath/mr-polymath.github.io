@@ -6,24 +6,27 @@ const theme = createTheme({
   cssVariables: {
     colorSchemeSelector: ".mode-%s",
   },
+  shape: {
+    borderRadius: 2,
+  },
   colorSchemes: {
     dark: {
       palette: {
         primary: {
-          main: "#feb062",
+          main: "#ff7900",
         },
         secondary: {
-          main: "#feb062",
+          main: "#ff7900",
         },
       },
     },
     light: {
       palette: {
         primary: {
-          main: "#feb062",
+          main: "#ff7900",
         },
         secondary: {
-          main: "#feb062",
+          main: "#ff7900",
         },
       },
     },

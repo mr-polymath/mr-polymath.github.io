@@ -7,7 +7,7 @@
     "position": [
       "Tech Enthusiast",
       "Self-taught Data Analyst",
-      "Multipotentialite",
+      "Polymath",
       "Full Stack Software Developer"
     ],
     "aboutMe": "Full-stack developer with expertise in .NET and React. Delivers scalable, robust, and maintainable solutions."
@@ -18,9 +18,12 @@
       "list": [
         {
           "title": "This website!",
-          "image": "/logo/Logo.svg",
+          "description": "A personal portfolio website showcasing my skills, projects, and experience. Designed and built by me using React, Typescript, Material UI, and GSAP.",
+          "image": "/screenshots/website.png",
+          "image-dark": "/screenshots/website-dark.png",
           "skills": ["React", "Typescript", "Material UI", "GSAP"],
-          "url": "https://github.com/mr-polymath/mr-polymath.github.io"
+          "url": "https://github.com/mr-polymath/mr-polymath.github.io",
+          "url-name": "View Github"
         }
       ]
     },

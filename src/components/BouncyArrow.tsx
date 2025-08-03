@@ -2,6 +2,8 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import { Box, useColorScheme, useMediaQuery } from "@mui/material";
+import theme from "../theme";
+
 gsap.registerPlugin(useGSAP);
 
 export const BouncyArrow = () => {
@@ -34,7 +36,7 @@ export const BouncyArrow = () => {
             d="M2.4375 24.7175L11.7175 34M11.7175 34L21 24.7175M11.7175 34V1.7085"
             stroke={
               mode === "dark" || (mode === "system" && prefersDarkMode)
-                ? "#feb062"
+                ? theme.palette.primary.main
                 : "#000000"
             }
             strokeOpacity="0.5"
